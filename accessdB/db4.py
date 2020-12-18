@@ -5,5 +5,5 @@ mycursor=mydb.cursor()
 mycursor.execute("Select id,fname,lname,email from Emp")
 result=mycursor.fetchone()
 print(result)
-for i in result:
-    print(i)
+#for i in result:
+    #print(i)
